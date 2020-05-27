@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "792535912044",
+    "firebase_url": "https://containerloadcalculator.firebaseio.com",
+    "project_id": "containerloadcalculator",
+    "storage_bucket": "containerloadcalculator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792535912044:android:582cfe0ba0cbf4ee",
+        "android_client_info": {
+          "package_name": "com.hasanural.containercalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792535912044-isgisbadnlau6p7tpe1kj8hr2k3unbsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKlpyjycPSOH_f9cy9t2XU6vnX6vBYlp0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

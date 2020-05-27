@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context=".CalculationActivity">
+    <LinearLayout
+        android:id="@+id/calculator_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        >
+        <Button
+            android:id="@+id/btn_prev"
+            android:layout_width="@dimen/calculation_nav_button_width"
+            android:layout_height="@dimen/calculation_nav_button_height"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:hint="@string/calculation_nav_button_prev"
+            android:layout_margin="@dimen/calculation_nav_button_margin"
+            android:padding="@dimen/calculation_nav_button_padding"
+            android:textColor="@color/colorSecondaryText"
+            android:visibility="invisible" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/calculation_nav_pager_margin"
+            android:padding="@dimen/calculation_nav_pager_padding"
+            android:layout_weight="1"
+            android:id="@+id/dotLayout"
+            android:gravity="center"
+            android:orientation="horizontal"/>
+        <Button
+            android:layout_width="@dimen/calculation_nav_button_width"
+            android:layout_height="@dimen/calculation_nav_button_height"
+            android:id="@+id/btn_next"
+            android:layout_weight="1"
+            android:hint="@string/calculation_nav_button_next"
+            android:layout_margin="@dimen/calculation_nav_button_margin"
+            android:padding="@dimen/calculation_nav_button_padding"
+            android:textColor="@color/colorSecondaryText"
+            android:background="@android:color/transparent"
+            />
+    </LinearLayout>
+    <com.hasanural.containercalculator.LockableViewPager
+        android:id="@+id/a_calc_vp_pager"
+        android:layout_below="@+id/calculator_nav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.hasanural.containercalculator.LockableViewPager>
+</RelativeLayout>

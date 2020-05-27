@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/setting_margin"
+    android:padding="@dimen/setting_padding"
+    tools:context=".SettingActivity">
+<LinearLayout
+    android:id="@+id/setting_layout_lang"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_definition_lang"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/setting_content_text_size" />
+    <Spinner
+        android:layout_width="match_parent"
+
+        android:id="@+id/setting_sp_lang"
+        android:padding="@dimen/setting_content_padding"
+        android:minHeight="50dp"
+        android:textAlignment="textEnd"
+        android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_definition_api_url"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/setting_content_text_size" />
+
+        <EditText
+            android:id="@+id/setting_et_api_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_definition_api_url"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:maxLength="180"
+            android:padding="@dimen/setting_content_padding"
+            android:scrollbars="vertical"
+            android:selectAllOnFocus="true"
+            android:textAlignment="textStart"
+            android:textColorHint="@color/colorSecondaryText"
+            android:textColor="@color/colorSecondaryText" />
+    </LinearLayout>
+    <Button
+        android:layout_below="@id/setting_layout_lang"
+        android:id="@+id/setting_button_save"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/setting_button_save"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:background="@drawable/btn_add"
+        />
+
+</RelativeLayout>

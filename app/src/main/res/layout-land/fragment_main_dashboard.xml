@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="@dimen/dashboard_logo_width"
+        android:layout_height="@dimen/dashboard_logo_height"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/dashboard_logo_description"
+        app:srcCompat="@drawable/ic_logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:isScrollContainer="true"
+            android:layout_margin="@dimen/dashboard_container_margin">
+
+            <LinearLayout
+                android:id="@+id/main_dashboard_layout_calculation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cv_calculate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    app:cardCornerRadius="1dp"
+                    app:cardElevation="1dp"
+                    app:contentPadding="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/dashboard_cardview_app_icon_width"
+                            android:layout_height="@dimen/dashboard_cardview_app_icon_hight"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="@string/dashboard_cardview_title_calculation"
+                            android:src="@drawable/ic_calculate" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dashboard_cardview_app_title_margin"
+                            android:gravity="center"
+                            android:text="@string/dashboard_cardview_title_calculation"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/dashboard_cardview_app_title_size"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cv_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    app:cardCornerRadius="1dp"
+                    app:cardElevation="1dp"
+                    app:contentPadding="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/dashboard_cardview_app_icon_width"
+                            android:layout_height="@dimen/dashboard_cardview_app_icon_hight"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="@string/dashboard_cardview_title_container"
+                            android:src="@drawable/ic_container" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dashboard_cardview_app_title_margin"
+                            android:gravity="center"
+                            android:text="@string/dashboard_cardview_title_container"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/dashboard_cardview_app_title_size"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cv_product"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    app:cardCornerRadius="1dp"
+                    app:cardElevation="1dp"
+                    app:contentPadding="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/dashboard_cardview_app_icon_width"
+                            android:layout_height="@dimen/dashboard_cardview_app_icon_hight"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="@string/dashboard_cardview_title_production"
+                            app:srcCompat="@drawable/ic_box" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dashboard_cardview_app_title_margin"
+                            android:gravity="center"
+                            android:text="@string/dashboard_cardview_title_production"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/dashboard_cardview_app_title_size"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/main_dashboard_layout_calculation2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/main_dashboard_layout_calculation"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cv_orders"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    app:cardCornerRadius="1dp"
+                    app:cardElevation="1dp"
+                    app:contentPadding="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/dashboard_cardview_app_icon_width"
+                            android:layout_height="@dimen/dashboard_cardview_app_icon_hight"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="@string/dashboard_cardview_title_order"
+                            android:src="@drawable/ic_order" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dashboard_cardview_app_title_margin"
+                            android:gravity="center"
+                            android:text="@string/dashboard_cardview_title_order"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/dashboard_cardview_app_title_size"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cv_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    app:cardCornerRadius="1dp"
+                    app:cardElevation="1dp"
+                    app:contentPadding="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/dashboard_cardview_app_icon_width"
+                            android:layout_height="@dimen/dashboard_cardview_app_icon_hight"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="@string/dashboard_cardview_title_setting"
+                            app:srcCompat="@drawable/ic_settings" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dashboard_cardview_app_title_margin"
+                            android:gravity="center"
+                            android:text="@string/dashboard_cardview_title_setting"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/dashboard_cardview_app_title_size"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

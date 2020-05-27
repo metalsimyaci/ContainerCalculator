@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="defination_item_title_text_size">12sp</dimen>
+    <dimen name="dialog_container_padding">10dp</dimen>
+    <dimen name="dialog_container_margin">10dp</dimen>
+    <dimen name="dialog_product_padding">10dp</dimen>
+    <dimen name="dialog_product_margin">10dp</dimen>
+    <dimen name="edit_item_padding">10dp</dimen>
+    <!--Dashobard Start-->
+    <dimen name="dashboard_logo_width">192dp</dimen>
+    <dimen name="dashboard_logo_height">192dp</dimen>
+    <dimen name="dashboard_logo_margin">84dp</dimen>
+
+    <dimen name="dashboard_container_margin">20dp</dimen>
+    <dimen name="dashboard_cardview_margin">5dp</dimen>
+    <dimen name="dashboard_cardview_corner_radius">5dp</dimen>
+    <dimen name="dashboard_cardview_elevation">5dp</dimen>
+    <dimen name="dashboard_cardview_content_padding">10dp</dimen>
+
+    <dimen name="dashboard_cardview_app_icon_width">64dp</dimen>
+    <dimen name="dashboard_cardview_app_icon_hight">64dp</dimen>
+    <dimen name="dashboard_cardview_app_title_size">18sp</dimen>
+    <dimen name="dashboard_cardview_app_title_margin">10dp</dimen>
+    <!--Dashobard End-->
+    <!--Calculation Start-->
+    <!--<dimen name="calculation_nav_height">50dp</dimen>-->
+
+    <dimen name="calculation_nav_button_height">50dp</dimen>
+    <dimen name="calculation_nav_button_width">250dp</dimen>
+    <dimen name="calculation_nav_button_margin">5dp</dimen>
+    <dimen name="calculation_nav_button_padding">5dp</dimen>
+    <dimen name="calculation_nav_pager_padding">0dp</dimen>
+    <dimen name="calculation_nav_pager_margin">5dp</dimen>
+
+
+    <dimen name="calculation_container_content_padding">5dp</dimen>
+
+    <dimen name="calculation_container_padding">10dp</dimen>
+    <dimen name="calculation_container_margin">10dp</dimen>
+
+    <dimen name="calculation_container_button_padding">0dp</dimen>
+    <dimen name="calculation_container_button_margin">0dp</dimen>
+
+    <dimen name="calculation_container_title_padding">10dp</dimen>
+    <dimen name="calculation_container_title_text_size">25sp</dimen>
+
+    <dimen name="calculation_container_title_inline_padding">5dp</dimen>
+    <dimen name="calculation_container_title_inline_text_size">18sp</dimen>
+
+    <dimen name="calculation_container_edit_item_padding">10dp</dimen>
+
+    <dimen name="calculation_product_padding">5dp</dimen>
+    <dimen name="calculation_product_margin">5dp</dimen>
+    <dimen name="calculation_product_button_padding">5dp</dimen>
+    <dimen name="calculation_product_button_margin">5dp</dimen>
+
+    <dimen name="calculation_result_padding">10dp</dimen>
+    <dimen name="calculation_result_margin">10dp</dimen>
+    <!--Calculation End-->
+<!--Container-->
+    <dimen name="container_padding">5dp</dimen>
+    <dimen name="container_margin">5dp</dimen>
+    <dimen name="container_title_text_size">30sp</dimen>
+    <!--container End-->
+    <!--Product-->
+    <dimen name="product_padding">10dp</dimen>
+    <dimen name="product_margin">10dp</dimen>
+    <dimen name="product_title_text_size">30sp</dimen>
+    <dimen name="product_dialog_title_padding">10dp</dimen>
+    <dimen name="product_dialog_title_text_size">25sp</dimen>
+    <dimen name="product_content_padding">5dp</dimen>
+    <dimen name="product_content_text_size">16sp</dimen>
+    <dimen name="product_adapter_title_text_size">20sp</dimen>
+    <!--Product End-->
+    <!--Setting-->
+    <dimen name="setting_padding">10dp</dimen>
+    <dimen name="setting_margin">10dp</dimen>
+    <dimen name="setting_content_padding">10dp</dimen>
+    <dimen name="setting_content_text_size">18sp</dimen>
+    <!--Setting End-->
+
+
+
+    <dimen name="btn_main_padding_left_right">60dp</dimen>
+    <dimen name="btn_main_padding_top_bottom">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="Cai_Text_width">150dp</dimen>
+    <dimen name="cai_text_padding">5dp</dimen>
+    <dimen name="cai_edittext_padding">10dp</dimen>
+    <dimen name="cai_tw_width">140dp</dimen>
+    <dimen name="cai_tw_padding">10dp</dimen>
+    <dimen name="cai_te_padding">10dp</dimen>
+</resources>

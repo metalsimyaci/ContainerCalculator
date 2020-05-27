@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/cai_tw_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/container_definition_name"
+        android:padding="@dimen/calculation_container_content_padding"
+        android:textAlignment="textEnd"
+        android:textSize="@dimen/calculation_container_title_text_size"
+        android:textColor="@color/colorSecondaryText" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/calculation_container_content_padding"
+            android:layout_weight="2"
+            android:text="@string/calculation_container_title_measurement" />
+        <TextView
+            android:id="@+id/cai_tw_measurement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textAlignment="textEnd"
+            android:padding="@dimen/calculation_container_content_padding" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculation_container_title_tolerance"
+        android:padding="@dimen/calculation_container_content_padding"
+        android:layout_weight="2" />
+    <TextView
+        android:id="@+id/cai_tw_tolerance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:textAlignment="textEnd"
+        android:padding="@dimen/calculation_container_content_padding"  />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/cai_tw_id"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="1dp"
+        android:background="@color/divider"/>
+</LinearLayout>

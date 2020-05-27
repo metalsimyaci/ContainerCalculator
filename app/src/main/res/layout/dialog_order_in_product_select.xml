@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/cal_prd_te_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/calculation_product_title"
+        android:inputType="text"
+        android:padding="@dimen/cai_edittext_padding"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorSecondaryText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/cal_prd_te_length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="0"
+            android:inputType="number"
+            android:padding="@dimen/cai_te_padding"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorSecondaryText" />
+
+        <EditText
+            android:id="@+id/cal_prd_te_width"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="0"
+            android:inputType="number"
+            android:padding="@dimen/cai_te_padding"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorSecondaryText" />
+
+        <EditText
+            android:id="@+id/cal_prd_te_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="0"
+            android:inputType="number"
+            android:padding="10dp"
+            android:selectAllOnFocus="true"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorSecondaryText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/cal_prd_te_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="0"
+            android:inputType="number"
+            android:padding="@dimen/cai_te_padding"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorSecondaryText" />
+
+        <Spinner
+            android:id="@+id/cal_prd_sp_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/cai_edittext_padding"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cal_prod_dialog_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_add"
+            android:padding="5dp"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/cal_prod_dialog_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_close"
+            android:padding="5dp"
+            android:text="Cancel" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cal_prd_tw_id"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible" />
+
+
+</LinearLayout>

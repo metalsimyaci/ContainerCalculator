@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/pai_tw_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/product_definition_name"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorSecondaryText"
+        android:padding="@dimen/product_content_padding"
+        android:textSize="@dimen/product_adapter_title_text_size"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/product_definition_measurement"
+            android:textColor="@color/colorSecondaryText"
+            android:gravity="start|center_vertical"
+            android:layout_weight="2"
+            android:padding="@dimen/product_content_padding"
+            android:textAlignment="textStart"
+            android:textSize="@dimen/product_content_text_size" />
+        <TextView
+            android:id="@+id/pai_tw_measurement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="2358 X 12586 X 225252"
+            android:layout_weight="1"
+            android:gravity="end|center_vertical"
+            android:textColor="@color/colorSecondaryText"
+            android:padding="@dimen/product_content_padding"
+            android:textSize="@dimen/product_content_text_size"
+            android:textAlignment="textEnd"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pai_tw_id"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="1dp"
+        android:background="@color/divider"/>
+</LinearLayout>

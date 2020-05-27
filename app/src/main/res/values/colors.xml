@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#008fc4</color>
+    <color name="colorPrimaryDark">#006293</color>
+    <color name="colorPrimaryLight">#5bbff7</color>
+    <color name="colorAccent">#fdbe55</color>
+    <color name="colorAccentDark">#fdbe55</color>
+    <color name="colorAccentLight">#fff085</color>
+    <color name="colorPrimaryText">#FFFFFF</color>
+    <color name="colorSecondaryText">#414043</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="colorDots">#CCCCCC</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="green">#4CAF50</color>
+    <color name="greenDark">#388E3C</color>
+    <color name="greenLight">#8BC34A</color>
+    <color name="text">#FFFFFF</color>
+    <color name="textDark">#212121</color>
+    <color name="textLight">#757575</color>
+    <color name="RedDark">#D32F2F</color>
+    <color name="RedLight">#FF5252</color>
+
+    <item name='Navy' type='color'>#000080</item>
+    <item name='Darkblue' type='color'>#00008B</item>
+    <item name='Mediumblue' type='color'>#0000CD</item>
+    <item name='Blue' type='color'>#0000FF</item>
+    <item name='Darkgreen' type='color'>#006400</item>
+    <item name='Green' type='color'>#008000</item>
+    <item name='Teal' type='color'>#008080</item>
+    <item name='Darkcyan' type='color'>#008B8B</item>
+    <item name='Lime' type='color'>#00FF00</item>
+    <item name='Cyan' type='color'>#00FFFF</item>
+    <item name='Dodgerblue' type='color'>#1E90FF</item>
+    <item name='Seagreen' type='color'>#2E8B57</item>
+    <item name='Limegreen' type='color'>#32CD32</item>
+    <item name='Turquoise' type='color'>#40E0D0</item>
+    <item name='Royalblue' type='color'>#4169E1</item>
+    <item name='Steelblue' type='color'>#4682B4</item>
+    <item name='Indigo' type='color'>#4B0082</item>
+    <item name='Cadetblue' type='color'>#5F9EA0</item>
+    <item name='Dimgray' type='color'>#696969</item>
+    <item name='Slateblue' type='color'>#6A5ACD</item>
+    <item name='Slategray' type='color'>#708090</item>
+    <item name='Lawngreen' type='color'>#7CFC00</item>
+    <item name='Chartreuse' type='color'>#7FFF00</item>
+    <item name='Aquamarine' type='color'>#7FFFD4</item>
+    <item name='Maroon' type='color'>#800000</item>
+    <item name='Purple' type='color'>#800080</item>
+    <item name='Olive' type='color'>#808000</item>
+    <item name='Gray' type='color'>#808080</item>
+    <item name='Olivedrab' type='color'>#688E23</item>
+    <item name='Skyblue' type='color'>#87CEEB</item>
+    <item name='Blueviolet' type='color'>#8A2BE2</item>
+    <item name='Darkred' type='color'>#8B0000</item>
+    <item name='Lightgreen' type='color'>#90EE90</item>
+    <item name='Darkviolet' type='color'>#9400D3</item>
+    <item name='Palegreen' type='color'>#98FB98</item>
+    <item name='Darkorchid' type='color'>#9932CC</item>
+    <item name='Sienna' type='color'>#A0522D</item>
+    <item name='Brown' type='color'>#A52A2A</item>
+    <item name='Darkgray' type='color'>#A9A9A9</item>
+    <item name='Lightblue' type='color'>#ADD8E6</item>
+    <item name='Powderblue' type='color'>#B0E0E6</item>
+    <item name='Firebrick' type='color'>#B22222</item>
+    <item name='Rosybrown' type='color'>#BC8F8F</item>
+    <item name='Darkkhaki' type='color'>#BDB76B</item>
+    <item name='Silver' type='color'>#C0C0C0</item>
+    <item name='Indianred' type='color'>#CD5C5C</item>
+    <item name='Peru' type='color'>#CD853F</item>
+    <item name='Chocolate' type='color'>#D2691E</item>
+    <item name='Tan' type='color'>#D2B48C</item>
+    <item name='Lightgrey' type='color'>#D3D3D3</item>
+    <item name='Thistle' type='color'>#D8BFD8</item>
+    <item name='Orchid' type='color'>#DA70D6</item>
+    <item name='Goldenrod' type='color'>#DAA520</item>
+    <item name='Crimson' type='color'>#DC143C</item>
+    <item name='Gainsboro' type='color'>#DCDCDC</item>
+    <item name='Plum' type='color'>#DDA0DD</item>
+    <item name='Burlywood' type='color'>#DEB887</item>
+    <item name='Darksalmon' type='color'>#E9967A</item>
+    <item name='Violet' type='color'>#EE82EE</item>
+    <item name='Lightcoral' type='color'>#F08080</item>
+    <item name='Khaki' type='color'>#F0E68C</item>
+    <item name='Sandybrown' type='color'>#F4A460</item>
+    <item name='Wheat' type='color'>#F5DEB3</item>
+    <item name='Salmon' type='color'>#FA8072</item>
+    <item name='Red' type='color'>#FF0000</item>
+    <item name='Magenta' type='color'>#FF00FF</item>
+    <item name='Fuchsia' type='color'>#FF00FF</item>
+    <item name='deeppink' type='color'>#FF1493</item>
+    <item name='Orangered' type='color'>#FF4500</item>
+    <item name='Tomato' type='color'>#FF6347</item>
+    <item name='Hotpink' type='color'>#FF69B4</item>
+    <item name='Coral' type='color'>#FF7F50</item>
+    <item name='Darkorange' type='color'>#FF8C00</item>
+    <item name='Orange' type='color'>#FFA500</item>
+    <item name='Lightpink' type='color'>#FFB6C1</item>
+    <item name='Pink' type='color'>#FFC0CB</item>
+    <item name='Gold' type='color'>#FFD700</item>
+    <item name='Yellow' type='color'>#FFFF00</item>
+
+
+    <integer-array name="spinner_colors">
+        <item>@color/Navy</item>
+        <item>@color/Darkblue</item>
+        <item>@color/Mediumblue</item>
+        <item>@color/Blue</item>
+        <item>@color/Darkgreen</item>
+        <item>@color/Green</item>
+        <item>@color/Teal</item>
+        <item>@color/Darkcyan</item>
+        <item>@color/Lime</item>
+        <item>@color/Cyan</item>
+        <item>@color/Dodgerblue</item>
+        <item>@color/Seagreen</item>
+        <item>@color/Limegreen</item>
+        <item>@color/Turquoise</item>
+        <item>@color/Royalblue</item>
+        <item>@color/Steelblue</item>
+        <item>@color/Indigo</item>
+        <item>@color/Cadetblue</item>
+        <item>@color/Dimgray</item>
+        <item>@color/Slateblue</item>
+        <item>@color/Slategray</item>
+        <item>@color/Lawngreen</item>
+        <item>@color/Chartreuse</item>
+        <item>@color/Aquamarine</item>
+        <item>@color/Maroon</item>
+        <item>@color/Purple</item>
+        <item>@color/Olive</item>
+        <item>@color/Gray</item>
+        <item>@color/Olivedrab</item>
+        <item>@color/Skyblue</item>
+        <item>@color/Blueviolet</item>
+        <item>@color/Darkred</item>
+        <item>@color/Lightgreen</item>
+        <item>@color/Darkviolet</item>
+        <item>@color/Palegreen</item>
+        <item>@color/Darkorchid</item>
+        <item>@color/Sienna</item>
+        <item>@color/Brown</item>
+        <item>@color/Darkgray</item>
+        <item>@color/Lightblue</item>
+        <item>@color/Powderblue</item>
+        <item>@color/Firebrick</item>
+        <item>@color/Rosybrown</item>
+        <item>@color/Darkkhaki</item>
+        <item>@color/Silver</item>
+        <item>@color/Indianred</item>
+        <item>@color/Peru</item>
+        <item>@color/Chocolate</item>
+        <item>@color/Tan</item>
+        <item>@color/Lightgrey</item>
+        <item>@color/Thistle</item>
+        <item>@color/Orchid</item>
+        <item>@color/Goldenrod</item>
+        <item>@color/Crimson</item>
+        <item>@color/Gainsboro</item>
+        <item>@color/Plum</item>
+        <item>@color/Burlywood</item>
+        <item>@color/Darksalmon</item>
+        <item>@color/Violet</item>
+        <item>@color/Lightcoral</item>
+        <item>@color/Khaki</item>
+        <item>@color/Sandybrown</item>
+        <item>@color/Wheat</item>
+        <item>@color/Salmon</item>
+        <item>@color/Red</item>
+        <item>@color/Magenta</item>
+        <item>@color/Fuchsia</item>
+        <item>@color/deeppink</item>
+        <item>@color/Orangered</item>
+        <item>@color/Tomato</item>
+        <item>@color/Hotpink</item>
+        <item>@color/Coral</item>
+        <item>@color/Darkorange</item>
+        <item>@color/Orange</item>
+        <item>@color/Lightpink</item>
+        <item>@color/Pink</item>
+        <item>@color/Gold</item>
+        <item>@color/Yellow</item>
+    </integer-array>
+</resources>
